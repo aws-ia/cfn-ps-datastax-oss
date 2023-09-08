@@ -121,7 +121,7 @@ Resources:
               Effect: Allow
               Action:
                 - 's3:GetObject'
-              Resource: !Sub arn:aws:s3:::${S3BucketName}/*
+              Resource: !Sub arn:${AWS::Partition}:s3:::${S3BucketName}/*
   DevNode1:
     Type: 'AWS::EC2::Instance'
     Metadata:
