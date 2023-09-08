@@ -1,5 +1,5 @@
 project:
-  name: quickstart-datastax-oss
+  name: cfn-ps-datastax-oss
   owner: raks.krishna@datastax.com
   package_lambda: false
   regions:
